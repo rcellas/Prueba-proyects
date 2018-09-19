@@ -1,0 +1,71 @@
+/* line 1, ../sass/style.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../sass/style.scss */
+nav {
+  width: 100%;
+  background: blue;
+}
+/* line 10, ../sass/style.scss */
+nav ul {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+/* line 15, ../sass/style.scss */
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+/* line 20, ../sass/style.scss */
+nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+/* line 26, ../sass/style.scss */
+nav ul li:hover {
+  background: greenyellow;
+}
+/* line 29, ../sass/style.scss */
+nav ul li:hover a {
+  text-decoration: none;
+}
+
+/* line 36, ../sass/style.scss */
+.toggle {
+  width: 100%;
+  padding: 10px 20px;
+  background: pink;
+  text-align: right;
+  box-sizing: border-box;
+  color: black;
+  font-size: 30px;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* line 48, ../sass/style.scss */
+  .toggle {
+    display: block;
+  }
+
+  /* line 52, ../sass/style.scss */
+  ul {
+    width: 100%;
+    display: none;
+  }
+  /* line 55, ../sass/style.scss */
+  ul li {
+    display: block;
+    text-align: center;
+  }
+
+  /* line 61, ../sass/style.scss */
+  .active {
+    display: block;
+  }
+}
