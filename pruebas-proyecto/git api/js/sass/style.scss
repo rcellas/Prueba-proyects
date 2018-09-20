@@ -17,11 +17,8 @@ body{
         size:16px;
     }
     line-height: 1.7;
-    a{
-        text-decoration: none !important;
-        color: aqua;
-        &:hover{
-            color: black;
-        }
+    button:hover{
+        background-color:pink; 
+        color:purple;
     }
 }

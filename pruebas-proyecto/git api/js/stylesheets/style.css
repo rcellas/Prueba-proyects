@@ -19,11 +19,7 @@ body {
   line-height: 1.7;
 }
 /* line 20, ../sass/style.scss */
-body a {
-  text-decoration: none !important;
-  color: aqua;
-}
-/* line 23, ../sass/style.scss */
-body a:hover {
-  color: black;
+body button:hover {
+  background-color: pink;
+  color: purple;
 }
